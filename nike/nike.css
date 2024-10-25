@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'jajak';
+    src: url(FONT/MontserratBlack-3zOvZ.ttf);
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);  
+    scrollbar-width: none;
+
+}
+
+header {
+    align-items: center;
+}
+
+.header {
+    margin: 0px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    list-style: none;
+    background-color: rgb(245, 242, 242);
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 5px 20px;
+}
+
+.navbar img {
+    width: 80px;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 10px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    border-radius: 4px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}
+
+.hujan {
+    padding: 2px 2px;
+    text-align: center;
+    background-color: rgb(245, 242, 242);
+}
+
+.hujan h4, p {
+    margin: 0;
+    padding: 5px;
+}
+
+video {
+    margin-left: 50px;
+    width: 93%;
+    height: auto;
+}
+
+.teks {
+    overflow: auto;
+    text-align: center;
+    margin: 50px;
+    white-space: nowarp;
+}
+
+.teks h1 {
+    margin: 0;
+    font-family: 'jajak', sans-serif;
+    font-size: 50px;
+}
+
+.teks h4, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 30px;
+}
+
+.jiji {
+    background-color: #272727;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.jiji:hover {
+    background-color: #6b6b6b;
+}
+
+.nana {
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.papah {
+    display: flex;
+    gap: 5px;
+    padding-left: 5px;
+    padding-right: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+.papah img {
+    max-width: 97%;
+    height: auto;
+    aspect-ratio: 5/6;
+}
+
+.lala {
+    position: absolute;
+    top: 320px;
+    left: 50px;
+    color: white;
+    z-index: 4;
+}
+
+.lala h1, h4 {
+    margin: 0%;
+    padding: 5px;
+}
+
+.lah {
+    position: absolute;
+    top: 390px;
+    left: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 20px;
+    z-index: 6;
+}
+
+.juju {
+    position: absolute;
+    top: 320px;
+    left: 470px;
+    color: white;
+    z-index: 4;
+}
+
+.juju h1, h3 {
+    margin: 0%;
+    padding: 4px;
+}
+
+.boo {
+    position: absolute;
+    top: 390px;
+    left: 440px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 20px;
+    z-index: 6;
+}
+
+.kaka {
+    position: absolute;
+    top: 320px;
+    left: 890px;
+    color: white;
+    z-index: 4;
+}
+
+.kaka h1, h3 {
+    margin: 0%;
+    padding: 4px;
+}
+
+.lahi {
+    position: absolute;
+    top: 390px;
+    left: 860px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 20px;
+    z-index: 6;
+}
+.tata {
+    overflow: hidden;
+}
+
+.kakangku {
+    display: flex;
+    position: absolute;
+    margin: 50px;
+    top: 1900px;
+    gap: 30px;
+    
+}
+
+.kakangku img {
+    width: 400px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 40px 20px;
+    text-align: left;
+    margin-top: 1200px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-links {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-links h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 8px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #000000;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
